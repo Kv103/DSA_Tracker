@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# dsa-tracker
+This repository contains our 450 DSA tracker for Group B. Project title: 450 DSA Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Objective: To build a PSDS progress tracker using React and TypeScript along with using other features like IndexedDB, Context API, reducer, and custom hooks.
 
-## Available Scripts
+Project Context: You will build this project using Typescript and the React library, yet a simple project which utilizes the Context API and reducer features of React.js, and uses browser realtime IndexedDB, that means the app will not have a physical database, rather it caches for the particular browser.
 
-In the project directory, you can run:
+Project stages:
 
-### `npm start`
+Fetch the data to be populated in the database in JSON format,
+Initializing IndexedDB using LocalBase, along with seeding the JSON data,
+Setup React Context and React Hooks,
+Designing the UI/UX,
+Deploy.
+High-Level Approach:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Seed the Data to IndexedDB
+Fetch the same data from the database and load the React Context.
+User must be able to see different DSA modules with the curated list of questions with checkboxes which signifies the completion of each.
+Primary goals:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You must able to make firebase like functionality with Localbase module by using browser's indexedDB.
+Learn to write your own custom hooks, contexts, and reducer.
